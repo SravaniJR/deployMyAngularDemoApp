@@ -1,0 +1,94 @@
+.banner
+{
+    background-image: url('../../../assets/images/bimg.jpg');
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    
+}
+.content{
+    top: 30%;
+    left: 20%;
+    position: absolute;
+}
+.content h1{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    
+}
+.content a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+   
+}
+.content a:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+.stepBox:hover{
+    background-color:greenyellow;
+    color: black;
+}
+.stepBox
+{
+    background-color: black;
+    padding: 10px 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+}
+.stepBox h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.stepBox p{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+.heading{
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.highlight{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: var(--primary-color);
+}
+.foodbox{
+    padding:10px 5px;
+}
+.foodbox img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.foodbox h1{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.viewmorebtn{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: black;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    float: right;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:600px)
+{
+    .banner
+{
+    height: 700px;
+}
+}
