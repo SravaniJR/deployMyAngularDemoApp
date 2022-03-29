@@ -13,6 +13,7 @@ import { MenupageComponent } from './pages/menupage/menupage.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +24,7 @@ import { MenupageComponent } from './pages/menupage/menupage.component';
     AboutComponent,
     ContactComponent,
     MenupageComponent,
-    
+
   ],
   imports: [
     BrowserModule,
